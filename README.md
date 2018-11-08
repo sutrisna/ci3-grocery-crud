@@ -13,11 +13,13 @@ $ php -S localhost:8080
 5. Buka browser lalu ketik **http://localhost:8080/examples**
 
 ### Framework dan Library
-
 [CodeIgniter 3](https://codeigniter.com/)
-
-### Explore lebih lanjut kunjungi 
 [Grocery CRUD](https://www.grocerycrud.com/)
+
+### Software version
+- CodeIgniter-3.1.9
+- grocery-crud-1.6.1
+- PHP Version 7.2.4
 
 ### Sutrisna 1453
 Jika tidak bisa sedekah dengan uang, maka bersedekahlah dengan ilmu pengetahuan
