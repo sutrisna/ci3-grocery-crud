@@ -10,7 +10,7 @@ $ git clone https://github.com/sutrisna/ci3-grocery-crud.git
 $ cd ci3-grocery-crud
 $ php -S localhost:8080
 ```
-5. Buka browser lalu ketik **localhost:8080**
+5. Buka browser lalu ketik **http://localhost:8080/examples**
 
 ### Framework dan Library
 
