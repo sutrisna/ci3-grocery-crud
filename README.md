@@ -22,6 +22,27 @@ $ git clone https://github.com/sutrisna/ci3-grocery-crud.git
 4. Pindahkan project ke folder htdocs di xampp
 5. Buka browser ketik **http://localhost/nama_project**
 
+# Cara menambahkan tabel baru
+1. Buat tabel dengan nama guru di database sekolah
+2. Buka file Sekolah.php di folder controllers
+3. Tambahkan code ini
+```bash
+public function guru()
+	{
+			$crud = new grocery_CRUD();
+
+			$crud->set_table('guru');
+
+			$output = $crud->render();
+
+    		$this->load->view('wrapper/header',$output);
+    		$this->load->view('sekolah/home', $output);
+    		$this->load->view('wrapper/footer',$output);
+            
+	}
+```
+4. Buka browser, ketik **http://localhost/nama_project/sekolah/guru**
+
 ### Framework dan Library
 [CodeIgniter 3](https://codeigniter.com/)
 [Grocery CRUD](https://www.grocerycrud.com/)
