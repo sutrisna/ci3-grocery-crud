@@ -1,5 +1,5 @@
 # Memulai project dan menjalankannya
-1. Buat Database dengan nama sekolah
+1. Buat database dengan nama "sekolah"  (Tanpa kutip)
 2. Import database sekolah yang sudah di sediakan di folder db
 3. Clone project menggunakan git :
 ```bash
